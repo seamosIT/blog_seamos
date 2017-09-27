@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: El Blog de Make it Real
-email: german.escobar@makeitreal.camp
-description: Un espacio para compartir conocimiento en programación y emprendimiento.
+title: SeamOS Blog
+email: yonnyquiceno@gmail.com
+description: SeamOS es una plataforma ciudadana y tecnológica que busca utilizar las TICs para actualizar la democracia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.makeitreal.camp" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: makeitrealcamp
-github_username:  makeitrealcamp
+url: "http://blog.seamos.co" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: seamos
+github_username:  yonnyquiceno
 excerpt_separator: <!-- more -->
 lang: es
 locale: es_CO
-image: "/assets/images/bg-images/laptop-sublime.jpg"
+image: "/assets/images/LogoSeamos.png"
 
-google_analytics: UA-18132057-9
+# google_analytics: UA-18132057-9
 
 # Build settings
 markdown: kramdown

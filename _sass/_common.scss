@@ -1,9 +1,8 @@
 a:focus, a:hover { text-decoration: none; }
 
 nav.main {
-  background: #333;
-  height: 60px;
-  padding: 12px 0;
+  background: rgba(200,200,200,0.5);
+  height: 50px;
 
   .main-content {
     display: flex;
@@ -11,6 +10,7 @@ nav.main {
     align-items: center;
 
     img {
+      height: 50px;
       width: 140px;
 
       @include media-breakpoint-up(md) { width: 150px;  }
