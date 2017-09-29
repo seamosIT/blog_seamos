@@ -6,11 +6,14 @@ layout: default
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-lg-10 col-xl-9">
-        <a href="/">&larr; Volver a la lista de posts</a>
+        <a href="/" class='back-to-list'>
+          <span class='glyphicon glyphicon-hand-left'> </span>
+          Volver a la lista de posts
+        </a>
 
         <div class="post">
           <div class="post-image" style="background-image: url({% if page.image %}{{ page.image }}{% else %}/images/no-image.png{% endif %})"></div>
-          <div class="row justify-content-md-center">
+          <div class="row justify-content-md-center" style="font-size: initial">
             <div class="col-md-10">
               <div class="post-content">
                 <div class="post-details">
