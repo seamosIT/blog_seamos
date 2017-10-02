@@ -2,9 +2,9 @@
 layout: post
 title:  "Entrevista a Sebastián Sogamoso"
 date:   2014-08-12 12:00:00 -0500
-author: Germán Escobar
-image: /assets/images/bg-images/night-skyline-usa-manhattan.jpg
-gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+author: Andrea Mora - SeamOS
+image: /assets/images/bg-images/propuesta_1-04.png
+gravatar: https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
 redirect_from: "/2014/08/12/entrevista-a-sebastian-sogamoso/"
 ---
 
