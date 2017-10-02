@@ -25,6 +25,9 @@ nav.main {
   text-transform: uppercase;
   font-weight: bold;
   padding: 5px;
+  @media only screen and (min-width : 768px) {
+    text-align: right;
+  }
   &:hover {
     color: black;
     background-color: #c6c6c5;
