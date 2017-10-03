@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     {% for post in site.posts limit:1 %}
       <div class="post main-post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ site.baseurl }}/{{ post.image }}{% else %}/{{ site.baseurl }}/assets/images/no-image.png{% endif %});"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %});"></a>
         <div class="main-post-wrapper">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-content">
@@ -34,7 +34,7 @@ layout: default
       {% for post in site.posts offset:1 %}
         <div class="col-md-6 col-lg-4 align-items-stretch">
           <div class="post">
-            <div class="post-image" style="background-image: url({% if post.image %}{{ site.baseurl }}/{{ post.image }}{% else %}/{{ site.baseurl }}/assets/images/no-image.png{% endif %})"></div>
+            <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
             <div class="post-content">
               <header class="post-title">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
