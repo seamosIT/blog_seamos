@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Diseñando un Producto Mínimo Viable"
-date:   2014-08-29 12:00:00 -0500
+title: Diseñando un Producto Mínimo Viable
+date: '2014-08-29 12:00:00 -0500'
 author: Andrea Mora - SeamOS
 image: /assets/images/bg-images/propuesta_1-05.png
-gravatar: https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
-redirect_from: "/2014/08/29/disenando-un-producto-viable-minimo/"
-permalink: "/disenando-un-producto-viable-minimo/"
+gravatar: >-
+  https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
+redirect_from: /2014/08/29/disenando-un-producto-viable-minimo/
+permalink: /disenando-un-producto-viable-minimo/
+published: true
 ---
 
 En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!-- more --> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un producto mínimo viable (MVP por sus siglas en inglés).
@@ -58,3 +60,21 @@ Cada caja representa una tabla y sus columnas. Las líneas representan relacione
 El proceso de diseño de una aplicación Web puede ser tan básico e informal como lo hicimos acá, o tan sofisticado y formal como cada empresa lo considere necesario. Lo importante es concentrarse en la esencia de la aplicación y especificar lo mínimo necesario para la implementación, independientemente de quién vaya a escribir el código.
 
 Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!
+
+
+1. afasdf
+2. sfasdfad
+
+> We loved with a love that was more than love
+
+__cursiva__
+
+
+****bold****
+![lala]({{site.baseurl}}/_posts/Screenshot from 2017-09-19 09-54-54.png)
+
+[diseñando MVP](https://seamosit.github.io/disenando-un-producto-viable-minimo/ "MVP")
+
+
+<i> Texto en italica </i>
+
