@@ -35,6 +35,8 @@ Para **Challenges** identificamos dos actores: alumnos y administradores. La sig
 
 Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisiéramos pero con estos ocho podemos crear un producto mínimo viable. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
 
+
+
 Hay varias estrategias para detallar los casos de uso. Lo mínimo es una descripción de los pasos que debe seguir el usuario para completar la acción, los datos que debe ingresar, y/o la información que va a recibir/visualizar.
 
 ## Wireframes
@@ -72,6 +74,8 @@ __cursiva__
 
 ****bold****
 ![lala]({{site.baseurl}}/_posts/Screenshot from 2017-09-19 09-54-54.png)
+
+![Wireframes](/assets/images/mir-project.png)
 
 [diseñando MVP](https://seamosit.github.io/disenando-un-producto-viable-minimo/ "MVP")
 
