@@ -73,7 +73,7 @@ __cursiva__
 
 
 ****bold****
-![lala]({{site.baseurl}}/_posts/Screenshot from 2017-09-19 09-54-54.png)
+![lala](/Screenshot from 2017-09-19 09-54-54.png)
 
 ![Wireframes](/assets/images/mir-project.png)
 
