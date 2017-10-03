@@ -16,8 +16,8 @@
 title: SeamOS Blog
 email: yonnyquiceno@gmail.com
 description: SeamOS es una plataforma ciudadana y tecnológica que busca utilizar las TICs para actualizar la democracia.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.seamos.co" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog_seamos" # the subpath of your site, e.g. /blog
+url: "https://yonnyquiceno.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seamos
 github_username:  yonnyquiceno
 excerpt_separator: <!-- more -->
