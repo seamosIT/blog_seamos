@@ -37,7 +37,7 @@ layout: default
             <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
             <div class="post-content">
               <header class="post-title">
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
               </header>
               <div class="post-body">{{ post.excerpt }}</div>
               <div class="diffuse"></div>
