@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Día oficial para limpiar a Bogotá"
-date:   2014-09-22 12:00:00 -0500
+title: Día oficial para limpiar a Bogotá
+date: '2014-09-22 12:00:00 -0500'
 author: Andrea Mora - SeamOS
 image: /assets/images/bg-images/bogotalimpia.png
-gravatar:          https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
-redirect_from: "/2014/09/22/aprendiendo-a-programar/"
+gravatar: >-
+  https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
+redirect_from: /2014/09/22/aprendiendo-a-programar/
+published: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan placerat dui nec consectetur. Sed facilisis dolor lacus, nec ullamcorper erat pellentesque et. Sed leo lacus, tristique in aliquam quis, vestibulum sed turpis. Aliquam lobortis, leo sed molestie pretium, **erat sem placerat sapien, in aliquet felis lorem in enim. Sed iaculis augue sit amet magna dapibus ullamcorper. Pellentesque tristique dolor sit amet ipsum consequat, et dictum velit pellentesque.** Vivamus sit amet ante venenatis, vestibulum augue sed, consequat odio. Morbi suscipit tellus vitae urna porta molestie. Integer pretium magna ut facilisis consequat. Sed et metus enim. In in congue orci. Suspendisse potenti. Aenean at pretium diam. Morbi ut risus dapibus, hendrerit dui quis, mattis libero. Quisque dictum diam tortor. Phasellus sed libero ut felis luctus lacinia ut nec ex.
@@ -20,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan pl
 
 dapibus, hendrerit dui quis, mattis libero. Quisque dict **nsequat. Sed et metus enim. In in congue orci. Suspendisse potenti. Aeneansequat. Sed et metus enim. In in congue orci. Suspendisse potenti. Aenea**. et metus enim. In in congue orci. Suspendisse potenti. Aenean at pretium diam. Morbi ut risus dapibus, hendrerit dui quis, mattis libero. Quisque dictum diam tortorconsequat. Sed et metus enim. In in congue orci. Suspendisse potenti. Aenean at pretium diam. Mo [Evernote](https://evernote.com/) o [Dropbox](https://www.dropbox.com/)), um diam. Morbi ut risus dapibus, hendrer [Twitter](http://twitter.com), [Uber](http://uber.com/), [Basecamp](http://basecamp.com/)), um diam. Morbi ut risus dapibus, hendrer.
 
-## ¿um diam. Morbi ut risus dapibus, hendrer?
+## ¿um diam. Morbi ut risus dapibus, hendrer? EDITADO
 
 retium diam. Morbi ut risus dapibus, hendrerit dui quis, mattis libero. Quisque dictum diam tortorconsequat. Sed et metus enim. In in congue orci. Suspendisse
 
