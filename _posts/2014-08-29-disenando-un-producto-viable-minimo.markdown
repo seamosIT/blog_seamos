@@ -79,6 +79,8 @@ __cursiva__
 
 ![prueba1]({{site.baseurl}}//assets/images/mir-project.png)
 
+![chihiro]({{site.baseurl}}/assets/images/regular.jpg)
+
 [diseñando MVP](https://seamosit.github.io/disenando-un-producto-viable-minimo/ "MVP")
 
 
