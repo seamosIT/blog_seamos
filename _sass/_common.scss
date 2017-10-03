@@ -13,7 +13,7 @@ nav.main {
       height: 50px;
       width: 140px;
 
-      @media only screen and (min-width : 768px) { width: 150px;  }
+      @include media-breakpoint-up(md) { width: 150px;  }
     }
   }
 }
@@ -25,9 +25,6 @@ nav.main {
   text-transform: uppercase;
   font-weight: bold;
   padding: 5px;
-  @media only screen and (min-width : 768px) {
-    text-align: right;
-  }
   &:hover {
     color: black;
     background-color: #c6c6c5;
