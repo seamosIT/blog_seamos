@@ -2,10 +2,9 @@
 layout: post
 title: El poder de hacer el cambio con un solo click
 date: '2014-08-29 12:00:00 -0500'
-author: Andrea Mora - SeamOS
+author: Seamos - Democracia Digital
 image: 'https://s3.amazonaws.com/seamos-blog-images/equipo-seamos.jpeg'
-gravatar: >-
-  https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
+gravatar: 'https://s3.amazonaws.com/misc-assets-seamos/logo-big.png'
 redirect_from: /2014/08/29/disenando-un-producto-viable-minimo/
 permalink: /disenando-un-producto-viable-minimo/
 published: true
