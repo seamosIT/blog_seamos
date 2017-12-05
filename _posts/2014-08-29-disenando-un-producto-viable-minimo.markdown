@@ -1,87 +1,24 @@
 ---
 layout: post
-title: Diseñando un Producto Mínimo Viable
+title: El poder de hacer el cambio con un solo click
 date: '2014-08-29 12:00:00 -0500'
 author: Andrea Mora - SeamOS
-image: /assets/images/bg-images/propuesta_1-05.png
+image: 'https://twitter.com/hashtag/SeamOSelcambio?src=hash'
 gravatar: >-
   https://seamosproduction.mybluemix.net/assets/ANDREA-FINAL-f6c339931161ce71e2fc5ffc9cd4b2a30f27d0bd415fd5e8e94197461b6dbfa3.png
 redirect_from: /2014/08/29/disenando-un-producto-viable-minimo/
 permalink: /disenando-un-producto-viable-minimo/
 published: true
 ---
+La era digital cambió el mundo para siempre, cambió la forma de conectarnos con la gente, de hacer negocios y de informarnos. Esto no es fenómeno, es una evolución natural a la que nos hemos adaptado, es la forma de vida de nuestra época. 
 
-En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!-- more --> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un producto mínimo viable (MVP por sus siglas en inglés).
+Y frente a esta evolución, un equipo joven, casi todos con experiencia en asuntos públicos y políticos, con ganas de generar procesos de cambio y transformar la forma de hacer política, nos reunimos para explorar los alcances que tienen las tecnologías de la información y las comunicaciones para irrumpir en el ejercicio político. Si la tecnología ha transformado la manera de hacer mercado, pagar servicios, conseguir pareja o pedir un taxi, ¿podríamos ser capaces de cambiar a los políticos a través de ella? ¿Nos escucharían? 
 
-![Challenges](/assets/images/challenges.png)
+Así nació SeamOS democracia digital, una plataforma tecnológica creada con el propósito de lograr que la ciudadanía recupere la confianza en la democracia representativa, y logre incidir en las decisiones políticas. Hace un mes lanzamos nuestra plataforma como una web app (seamos.co) para comenzar un ejercicio piloto con el Concejo de Bogotá. En la plataforma están las propuestas que trece concejales someterán durante el año en curso, y ya comenzó el ejercicio de votación ciudadana. Cada concejal vinculado a la plataforma firmó un manifiesto en el que pacta su compromiso de hacer valer la decisión de los ciudadanos y de informar periódicamente tanto el estado de la propuesta, como el resultado final.
 
-**Challenges** es una aplicación que se puede volver tan compleja como queramos (leaderboards, badges, tagging, integración a Github, manejo de archivos, y peer reviews, son solo algunas de las ideas que se me ocurren ahora) ¿Por dónde empezar?
+En el poco tiempo al aire hemos encontrado participación activa y mucha curiosidad de los ciudadanos, aunque todavía algo de desconfianza. ¿Cómo no? Todavía existe reticencia frente a la forma en que los políticos toman las decisiones clave de la ciudad. Pero ¿qué tal si esta plataforma lograra cambiar el curso de las cosas? ¿qué tal que la ciudadanía, con un solo click, cambie el curso de las decisiones que se toman por Bogotá? Hoy la tecnología nos permite tomar las riendas de las decisiones de nuestro país.   Es momento de pasar de la indignación a la acción, de dejar de protestar cuando tenemos la oportunidad de lograr un cambio, de hacernos escuchar. 
 
-## El primer paso
+Nuestro objetivo es lograr que esta plataforma sea un inicio para que, entre todos, podamos comenzar a actualizar la democracia. No es necesario que los ciudadanos voten cada cuatro años para elegir a un representante, cuando pueden hacerlo cada vez que lo deseen a través de esta herramienta tecnológica. Esperamos que esta plataforma, construida por ciudadanos para ciudadanos, marque el inicio de la era de la democracia digital en Colombia. Hablemos de democracia digital. 
 
-Podríamos durar meses haciendo una especificación detallada de todas las funcionalidades que queremos implementar antes de escribir nuestra primera línea de código; es un error que cometen muchas empresas cuando están diseñando sus aplicaciones.
+[#SeamOSelcambio](https://twitter.com/hashtag/SeamOSelcambio?src=hash), hagamos política ciudadana.
 
-Una mejor estrategia es concentrarnos únicamente en la **esencia de la aplicación**, en aquellas funcionalidades críticas sin las que no existiría aplicación, en el producto mínimo viable. Después podemos agregar más funcionalidades y mejorar la implementación actual. Lo importante es entender que **una aplicación Web es un sistema en constante evolución que nunca va a estar terminado**.
-
-Pero eso no quiere decir que debamos empezar a escribir nuestro código inmediatamente. Necesitamos al menos identificar quiénes van a utilizar nuestro producto (actores), qué puede hacer cada actor en nuestra aplicación (casos de uso), qué información necesitamos almacenar (diagrama de base de datos), y cómo se va a ver nuestra aplicación (wireframes).
-
-## Actores y casos de uso
-
-Para **Challenges** identificamos dos actores: alumnos y administradores. La siguiente imagen muestra el diagrama de casos de uso:
-
-![Actores y Casos de Uso](/assets/images/makeitchallenges-use-cases.jpg)
-
-*Sí, existen herramientas para hacer estos diagramas, pero a veces lo único que se tiene a la mano es una servilleta y un bolígrafo.*
-
-Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisiéramos pero con estos ocho podemos crear un producto mínimo viable. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
-
-
-
-Hay varias estrategias para detallar los casos de uso. Lo mínimo es una descripción de los pasos que debe seguir el usuario para completar la acción, los datos que debe ingresar, y/o la información que va a recibir/visualizar.
-
-## Wireframes
-
-Los wireframes son un boceto de la interfaz gráfica de nuestra aplicación y nos dan una idea de los diferentes elementos que necesitamos diseñar.
-
-![Wireframes](/assets//images/makeitchallenges-wireframes.jpg)
-
-Lo más importante es no enfocarse en los detalles, solo en la funcionalidad. Por eso es preferible hacer cada pantalla de máximo 5cm x 5cm.
-
-## La base de datos
-
-A partir de los casos de uso y wireframes nos damos una idea de la información que necesitamos almacenar. En nuestro caso son los **usuarios**, los **retos**, y las **soluciones**. La siguiente figura muestra el diagrama de base de datos.
-
-![Diagrama de Base de Datos](/assets//images/makeitchallenges-database.jpg)
-
-Cada caja representa una tabla y sus columnas. Las líneas representan relaciones entre las tablas. En este caso, los **retos** y los **usuarios** están relacionados a través de las **soluciones**. También es necesario definir el tipo de datos de cada columna y una descripción más detallada de ser necesario.
-
-¡Eso es todo! La implementación del MVP nos tomó aproximadamente 12 horas. La mayor parte de ese tiempo fue ajustando el editor embebido y encontrando la mejor forma de validar los retos ;) Desde entonces hemos estado trabajando en mejorar el diseño, la experiencia, y subiendo los retos al sistema. Pero en un futuro post publicaremos un video de cómo implementar este MVP.
-
-***
-
-El proceso de diseño de una aplicación Web puede ser tan básico e informal como lo hicimos acá, o tan sofisticado y formal como cada empresa lo considere necesario. Lo importante es concentrarse en la esencia de la aplicación y especificar lo mínimo necesario para la implementación, independientemente de quién vaya a escribir el código.
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!
-
-
-1. afasdf
-2. sfasdfad
-
-> We loved with a love that was more than love
-
-__cursiva__
-
-
-****bold****
-![lala](/Screenshot from 2017-09-19 09-54-54.png)
-
-![Wireframes](/assets/images/mir-project.png)
-
-![prueba1]({{site.baseurl}}//assets/images/mir-project.png)
-
-![chihiro]({{site.baseurl}}/assets/images/regular.jpg)
-
-[diseñando MVP](https://seamosit.github.io/disenando-un-producto-viable-minimo/ "MVP")
-
-
-<i> Texto en italica </i>
