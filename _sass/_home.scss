@@ -1,5 +1,16 @@
 .home-page {
+  $break-medium: 770px;
   margin-top: 60px;
+  .extra-content-container {
+    .recommended {
+      padding: 8px;
+      position: relative;
+      background: #eaeaea;
+      color: #44434c;
+      font-family: "HKNovaBold";
+      font-size: 18px;
+    }
+  }
 
   .post {
     border: solid 1px #ddd;
@@ -32,10 +43,10 @@
     .post-content {
       position: relative;
       padding: 20px 15px 0;
-      height: 250px;
+      height: 80px;
       overflow: hidden;
 
-      @include media-breakpoint-up(md) { height: 250px; }
+      @include media-breakpoint-up(md) { height: 125px; }
 
       .post-title {
         font-family: 'HKNovaBold';
@@ -80,7 +91,13 @@
     .post-footer {
       display: flex;
       align-items: center;
-      padding: 10px 15px 20px;
+      padding: 10px 15px 12px;
+
+      .date {
+        font-size: 15px;
+        text-align: right;
+        width: 100%;
+      }
 
       img {
         margin-right: 10px;
@@ -89,7 +106,7 @@
       }
 
       .author {
-        font-size: 18px;
+        font-size: 15px;
         font-family: "RobotoCondensed";
         color: #44424c;
       }
@@ -144,6 +161,51 @@
       }
     }
 
-    .post-footer { padding: 13px 20px 0; }
+    .post-footer {
+      padding: 13px 20px 0;
+    }
+  }
+  .newsletter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .newsletter {
+      width: 100%;
+      height: 250px;
+      background-color: #f4e937;
+      padding: 90px;
+      @media screen and (max-width: $break-medium) {
+        padding: 20px;
+        padding-top: 70px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+      }
+      .title {
+        font-family: 'HKNovaBold';
+        text-align: center;
+        font-size: 29px;
+        color: #3d5062;
+        margin-bottom: 53px;
+        margin-top: -20px;
+        @media screen and (max-width: $break-medium) {
+          font-size: 24px;
+        }
+      }
+      .input-group {
+        width: 530px;
+        margin: auto;
+        @media screen and (max-width: $break-medium) {
+          width: 240px;
+        }
+        .btn-secondary {
+          background-color: #5bc0c8;
+          color: white;
+          font-family: 'RobotoCondensed';
+          font-weight: bold;
+          text-transform: uppercase;
+          width: 100px;
+        }
+      }
+    }
   }
 }
