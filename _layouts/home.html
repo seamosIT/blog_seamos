@@ -9,23 +9,25 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %});"></a>
         <div class="main-post-wrapper">
           <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.author %}
+            <footer class="post-footer">
+              <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+              <div>
+                <span class="author">{{ post.author }}</span>
+                <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+              </div>
+            </footer>
+            {% endif %}
             <div class="post-content">
               <header class="post-title">
                 {{ post.title }}
               </header>
               <div class="post-body">{{ post.excerpt }}</div>
-              <div class="diffuse"></div>
+              <div class="non-diffuse">
+                <div class="btn-plus-read">LEER +</div>
+              </div>
             </div>
           </a>
-          {% if post.author %}
-          <footer class="post-footer">
-            <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
-            <div>
-              <span class="author">{{ post.author }}</span>
-              <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-            </div>
-          </footer>
-          {% endif %}
         </div>
       </div>
     {% endfor %}
