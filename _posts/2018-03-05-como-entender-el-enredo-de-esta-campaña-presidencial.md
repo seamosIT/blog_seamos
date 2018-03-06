@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: '2018-03-05 12:00:00 -0500'
 author: SeamOS - David Núñez
