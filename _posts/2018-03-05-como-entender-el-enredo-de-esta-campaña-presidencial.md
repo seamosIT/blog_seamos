@@ -3,12 +3,15 @@ published: true
 layout: post
 date: '2018-03-05 12:00:00 -0500'
 author: SeamOS - David Núñez
-image: 'https://s3.amazonaws.com/seamos-blog-images/equipo-seamos.jpeg'
+image: 'https://s3.amazonaws.com/seamos-blog-images/como-entender-el-enredo-main-image.jpeg'
 gravatar: >-
   http://seamos.co/assets/DAVID-FINAL-01f49f6ac1362458c056e23a9fddd78686e78087af5b037aeba91f53001f5da1.png
 redirect_from: /2017/12/05/como-entender-el-enredo-de-esta-campaña-presidencial/
 permalink: /como-entender-el-enredo-de-esta-campaña-presidencial/
 ---
+
+# ¿CÓMO ENTENDER EL ENREDO DE ESTA CAMPAÑA PRESIDENCIAL?
+
 Este año se vienen las elecciones a la presidencia con todos sus cálculos, alianzas e intrigas, por eso SeamOS ha decidido escribir una serie de columnas para que usted, nuestro superhéroe, pueda entender el enredo de estas candidaturas, se informe y **salga a las urnas el 27 de mayo del 2018 a elegir conscientemente** a aquella persona que tomará las decisiones más importantes para todos los colombianos durante los próximos cuatro años. 
 
 En esta ocasión queremos presentar un panorama general de lo que está sucediendo con los candidatos, cuántos son, quiénes van por firmas o por partidos, quienes van a hacer alianzas, de modo que, en medio de esta maraña, usted pueda informarse para entender quién es quién y **decidir si alguno de estos personajes lo convence o si es mejor votar en blanco.**

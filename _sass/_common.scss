@@ -25,6 +25,7 @@ nav.main {
   text-transform: uppercase;
   font-weight: bold;
   padding: 5px;
+  padding-right: 30px;
   &:hover {
     color: black;
     background-color: #c6c6c5;
@@ -34,6 +35,10 @@ nav.main {
     -ms-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
   }
+}
+
+.btn-logo {
+  padding-left: 30px;
 }
 
 .fade {

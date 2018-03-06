@@ -4,56 +4,76 @@ layout: default
 
 <div class="home-page">
   <div class="container">
-    {% for post in site.posts limit:1 %}
+    {% for post in site.posts limit:2 %}
       <div class="post main-post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %});"></a>
         <div class="main-post-wrapper">
           <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.author %}
+            <footer class="post-footer">
+              <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+              <div>
+                <span class="author">{{ post.author }}</span>
+                <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+              </div>
+            </footer>
+            {% endif %}
             <div class="post-content">
               <header class="post-title">
                 {{ post.title }}
               </header>
               <div class="post-body">{{ post.excerpt }}</div>
-              <div class="diffuse"></div>
+              <div class="non-diffuse">
+                <div class="btn-plus-read">LEER +</div>
+              </div>
             </div>
           </a>
-          {% if post.author %}
-          <footer class="post-footer">
-            <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
-            <div>
-              <span class="author">{{ post.author }}</span>
-              <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-            </div>
-          </footer>
-          {% endif %}
         </div>
       </div>
     {% endfor %}
 
     <div class="row">
-      {% for post in site.posts offset:1 %}
-        <div class="col-md-6 col-lg-4 align-items-stretch">
+      {% for post in site.posts offset:2 %}
+        <div class="col-md-6 col-lg-3 align-items-stretch">
           <div class="post">
             <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
             <div class="post-content">
               <header class="post-title">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </header>
-              <div class="post-body">{{ post.excerpt }}</div>
-              <div class="diffuse"></div>
             </div>
             <footer class="post-footer">
               {% if post.author %}
               <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
               <div>
                 <span class="author">{{ post.author }}</span>
-                <time>{{ post.date | date: "%b %-d, %Y" }}</time>
               </div>
+              <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
               {% endif %}
             </footer>
           </div>
         </div>
       {% endfor %}
+      <!-- <div class="extra-content-container col-lg-3">
+        <div class="recommended">
+          Lecturas recomendadas
+        </div>
+      </div> -->
+      <!-- <div class='newsletter-container col-lg-9'>
+        <div class='newsletter'>
+          <div class='title'>
+            Suscríbete a nuestro newsletter
+          </div>
+          <div class="input-group">
+            <input class="form-control" placeholder="correo" title="subscribe" name="newsletter" />
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="button">
+                ENVIAR
+              </button>
+            </span>
+          </div>
+        </div>
+      </div> -->
     </div>
   </div>
 </div>

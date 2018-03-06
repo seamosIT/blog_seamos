@@ -1,5 +1,16 @@
 .home-page {
+  $break-medium: 770px;
   margin-top: 60px;
+  .extra-content-container {
+    .recommended {
+      padding: 8px;
+      position: relative;
+      background: #eaeaea;
+      color: #44434c;
+      font-family: "HKNovaBold";
+      font-size: 18px;
+    }
+  }
 
   .post {
     border: solid 1px #ddd;
@@ -14,13 +25,28 @@
       @include media-breakpoint-up(md) { height: 215px; }
     }
 
+    .btn-plus-read {
+      color: white;
+      font-size: 15px;
+      line-height: 15px;
+      float: right;
+      font-family: "HKNovaBold";
+      text-transform: uppercase;
+      border-radius: 2px;
+      padding: 10px 20px;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      background-color: #70b962;
+    }
+
     .post-content {
       position: relative;
       padding: 20px 15px 0;
-      height: 250px;
+      height: 80px;
       overflow: hidden;
 
-      @include media-breakpoint-up(md) { height: 250px; }
+      @include media-breakpoint-up(md) { height: 125px; }
 
       .post-title {
         font-family: 'HKNovaBold';
@@ -51,12 +77,27 @@
         background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       }
+
+      .non-diffuse {
+        background-color: white;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+      }
     }
 
     .post-footer {
       display: flex;
       align-items: center;
-      padding: 10px 15px 20px;
+      padding: 10px 15px 12px;
+
+      .date {
+        font-size: 15px;
+        text-align: right;
+        width: 100%;
+      }
 
       img {
         margin-right: 10px;
@@ -65,7 +106,7 @@
       }
 
       .author {
-        font-size: 18px;
+        font-size: 15px;
         font-family: "RobotoCondensed";
         color: #44424c;
       }
@@ -87,28 +128,35 @@
 
     .post-image {
       @include media-breakpoint-up(lg) {
-        width: 50%;
+        width: 32%;
         height: initial;
       }
     }
 
     .main-post-wrapper {
-      @include media-breakpoint-up(lg) { width: 50%; }
+      @include media-breakpoint-up(lg) { width: 68%; }
     }
 
     .post-content {
       padding: 10px 20px;
       height: 250px;
+      .post-body {
+        h1 {
+          font-family: 'HKNovaBold';
+          color: black;
+        }
+      }
 
       @include media-breakpoint-up(md) { padding: 20px 25px; }
 
       .post-title {
+        display: none;
         color: #44424c;
         font-size: 24px;
         font-family: 'HKNovaBold';
         font-weight: 600;
         line-height: 1.2;
-        margin: 15px 0 25px;
+        margin: 0 0 25px;
       }
 
       .post-body {
@@ -120,6 +168,51 @@
       }
     }
 
-    .post-footer { padding: 0 25px 20px; }
+    .post-footer {
+      padding: 13px 20px 0;
+    }
+  }
+  .newsletter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .newsletter {
+      width: 100%;
+      height: 250px;
+      background-color: #f4e937;
+      padding: 90px;
+      @media screen and (max-width: $break-medium) {
+        padding: 20px;
+        padding-top: 70px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+      }
+      .title {
+        font-family: 'HKNovaBold';
+        text-align: center;
+        font-size: 29px;
+        color: #3d5062;
+        margin-bottom: 53px;
+        margin-top: -20px;
+        @media screen and (max-width: $break-medium) {
+          font-size: 24px;
+        }
+      }
+      .input-group {
+        width: 530px;
+        margin: auto;
+        @media screen and (max-width: $break-medium) {
+          width: 240px;
+        }
+        .btn-secondary {
+          background-color: #5bc0c8;
+          color: white;
+          font-family: 'RobotoCondensed';
+          font-weight: bold;
+          text-transform: uppercase;
+          width: 100px;
+        }
+      }
+    }
   }
 }
