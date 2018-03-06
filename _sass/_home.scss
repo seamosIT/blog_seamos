@@ -134,6 +134,13 @@
     }
 
     .main-post-wrapper {
+      .post-content {
+        .post-body {
+          h1 {
+            font-family: 'HKNovaBold';
+          }
+        }
+      }
       @include media-breakpoint-up(lg) { width: 68%; }
     }
 
