@@ -9,6 +9,9 @@ redirect_from: /2017/12/05/el-poder-de-hacer-el-cambio-con-un-solo-click/
 permalink: /el-poder-de-hacer-el-cambio-con-un-solo-click/
 published: true
 ---
+
+# EL PODER DE HACER EL CAMBIO CON UN SOLO CLICK
+
 La era digital cambió el mundo para siempre, cambió la forma de conectarnos con la gente, de hacer negocios y de informarnos. Esto no es fenómeno, es una evolución natural a la que nos hemos adaptado, es la forma de vida de nuestra época.
 
 Y frente a esta evolución, un equipo joven, casi todos con experiencia en asuntos públicos y políticos, con ganas de generar procesos de cambio y transformar la forma de hacer política, nos reunimos para explorar los alcances que tienen las tecnologías de la información y las comunicaciones para irrumpir en el ejercicio político. Si la tecnología ha transformado la manera de hacer mercado, pagar servicios, conseguir pareja o pedir un taxi, ¿podríamos ser capaces de cambiar a los políticos a través de ella? ¿Nos escucharían?
