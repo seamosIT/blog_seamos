@@ -41,9 +41,7 @@ Es así como la vaina política parece estar más candente que nunca y, en vísp
 
 … ¡esto quedó como para alquilar balcón! 
 
- 
-ANDRÉS MÁRQUEZ
-Coordinador diálogo político 
-SemOS Democracia Digital
 
-
+ANDRÉS MÁRQUEZ  
+Coordinador diálogo político  
+SemOS Democracia Digital  
