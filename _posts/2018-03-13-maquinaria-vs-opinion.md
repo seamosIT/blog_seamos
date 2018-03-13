@@ -9,7 +9,7 @@ gravatar: >-
 redirect_from: /2018/03/13/maquinaria-vs-opinion/
 permalink: /maquinaria-vs-opinion/
 ---
-# MAQUINARIA Vs OPINIÓN
+# Los resultados de las elecciones de Congreso: MAQUINARIA Vs OPINIÓN
 
 Después de la contienda electoral del pasado domingo 11 de marzo, ha quedado reconfigurado el Congreso de la República con un panorama bastante difuso para la presidencial que se avecina en el próximo mes de mayo, pero que a su vez pone a jugar a las diferentes fuerzas y partidos políticos con alianzas que suenan desde ya, pero que en algunos casos el manejo del ego de unos candidatos pareciera salir de las manos del interés general.
 
