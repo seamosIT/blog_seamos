@@ -48,4 +48,4 @@ Es así como la vaina política parece estar más candente que nunca y, en vísp
 
 ANDRÉS MÁRQUEZ  
 Coordinador diálogo político  
-SemOS Democracia Digital
+SeamOS Democracia Digital
