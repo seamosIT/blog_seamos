@@ -21,11 +21,15 @@ El gran perdedor en la cámara alta del Congreso es el Partido de la U, que se r
 
 Así mismo, el Polo Democrático se mantuvo con 5 curules, el Partido MIRA ratificó electoralmente su vigencia en el Senado, manteniendo las 3 curules que  habían ganado después del fallo del Consejo de Estado, el cual determinó que en las elecciones de 2014 hubo fraude. Otra novedad es la entrada de las 4 curules obtenidas por la lista de la DECENCIA de Petro. Quienes se quedaron sin escaños fueron los del Partido Opción Ciudadana del polémico “Tuerto Gil”, quienes en 2014 tenían 5 curules.  
 
+![Senado](https://s3.amazonaws.com/seamos-blog-images/infografia-senado.jpeg)
+
 Sin duda en la Cámara de Representantes los dos partidos victoriosos son el Centro Democrático y Cambio Radical, los Uribistas pasaron de 19 escaños a 32, creciendo en una tercera parte, mientras que los de Vargas Lleras aumentaron de 16 a 30, casi doblando su representación en la Cámara baja. 
 
 Los partidos derrotados en Cámara son: el Partido de la U, los Conservadores y hasta el Partido Liberal; este último, a pesar de seguir siendo la colectividad de mayor representación con 35 curules, perdió 4 escaños; la U resultó ser la más apaleada al pasar de tener 37 a 25 curules; y los Conservadores pierden 6 escaños, quedando con 21 curules.
 
 Otros partidos quedaron representados así: Alianza Verde sumó 3 más  y quedaron finalmente con 9, el Polo Democrático perdió una y ahora tiene 2, y el partido MIRA pasó de 3 a 2. Se puede decir que de los partidos con menor representación, las sorpresas estuvieron con Opción Ciudadana, quienes perdieron 4 quedando con sólo 2; la lista de la DECENCIA que incursiona en la Cámara con 2 curules; Libres con 1 sola curul,  al igual que la Coalición Alternativa Santandereana AS y MAIS.
+
+![Cámara](https://s3.amazonaws.com/seamos-blog-images/infografia-camara.jpeg)
 
 ## Bogotá 
 
@@ -44,4 +48,4 @@ Es así como la vaina política parece estar más candente que nunca y, en vísp
 
 ANDRÉS MÁRQUEZ  
 Coordinador diálogo político  
-SemOS Democracia Digital  
+SemOS Democracia Digital
