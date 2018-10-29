@@ -35,13 +35,16 @@ En este orden de ideas, se podría preguntar si ¿existe un desligamiento de la 
 ## Referencias
 
   BBC. (04 de Octubre de 2018). AMLO: *¿qué es la "Cuarta Transformación" que propone Andrés Manuel López Obrador para México?* Obtenido de:
-  https://www.bbc.com/mundo/noticias-america-latina-45712329
+  <a href="https://www.bbc.com/mundo/noticias-america-latina-45712329" target="_blank">https://www.bbc.com/mundo/noticias-america-latina-45712329</a>
+
 
   El Espectador . (19 de Mayo de 2017). *El Espectador* . Obtenido de La carne podrida del presidente de Brasil: <br>
-  https://www.elespectador.com/noticias/el-mundo/la-carne-podrida-del-presidente-de-brasil-articulo-694581
+  <a href="https://www.elespectador.com/noticias/el-mundo/la-carne-podrida-del-presidente-de-brasil-articulo-694581" target="_blank">https://www.elespectador.com/noticias/el-mundo/la-carne-podrida-del-presidente-de-brasil-articulo-694581</a>
+
 
   El Espectador. (Abril de 2018). *El Espectador*. Obtenido de La corrupción será el tema central de la Cumbre de las Américas: <br>
-  https://www.elespectador.com/noticias/el-mundo/la-corrupcion-sera-el-tema-central-de-la-cumbre-de-las-americas-articulo-749588
+  <a href="  https://www.elespectador.com/noticias/el-mundo/la-corrupcion-sera-el-tema-central-de-la-cumbre-de-las-americas-articulo-749588" target="_blank">  https://www.elespectador.com/noticias/el-mundo/la-corrupcion-sera-el-tema-central-de-la-cumbre-de-las-americas-articulo-749588</a>
+
 
   Espectador, E. (18 de Octubre de 2018). *El Espectador* . Obtenido de Brasil giró a la derecha y eligió a Bolsonaro como presidente: <br>
-  https://www.elespectador.com/noticias/el-mundo/brasil-giro-la-derecha-y-eligio-bolsonaro-como-presidente-articulo-820692
+    <a href="https://www.elespectador.com/noticias/el-mundo/brasil-giro-la-derecha-y-eligio-bolsonaro-como-presidente-articulo-820692" target="_blank">https://www.elespectador.com/noticias/el-mundo/brasil-giro-la-derecha-y-eligio-bolsonaro-como-presidente-articulo-820692</a>
