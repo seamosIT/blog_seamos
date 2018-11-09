@@ -4,7 +4,7 @@ layout: default
 
 <div class="home-page">
   <div class="container">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:5 %}
       <div class="post main-post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %});"></a>
         <div class="main-post-wrapper">
@@ -30,7 +30,7 @@ layout: default
     {% endfor %}
 
     <div class="row">
-      {% for post in site.posts offset:4 %}
+      {% for post in site.posts offset:5 %}
         <div class="col-md-6 col-lg-3 align-items-stretch">
           <div class="post">
             <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
