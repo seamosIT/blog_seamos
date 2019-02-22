@@ -2,9 +2,11 @@
 layout: post
 title: El poder de hacer el cambio con un solo click
 date: '2017-12-05 12:00:00 -0500'
-author: Seamos 
+authors:
+- Seamos
 image: 'https://s3.amazonaws.com/seamos-blog-images/equipo-seamos.jpeg'
-gravatar: 'https://s3.amazonaws.com/misc-assets-seamos/logo-big.png'
+gravatars:
+- 'https://s3.amazonaws.com/misc-assets-seamos/logo-big.png'
 redirect_from: /2017/12/05/el-poder-de-hacer-el-cambio-con-un-solo-click/
 permalink: /el-poder-de-hacer-el-cambio-con-un-solo-click/
 published: true

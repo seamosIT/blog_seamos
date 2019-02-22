@@ -2,10 +2,11 @@
 published: true
 layout: post
 date: '2018-10-29 12:00:00 -0500'
-author: Paula Carranza Lopez
+authors:
+- "Paula Carranza Lopez"
 image: 'https://s3.amazonaws.com/seamos-blog-images/afianzamiento-de-la-derecha-en-america-latina.jpeg'
-gravatar: >-
-  https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
+gravatars:
+- https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
 redirect_from: /2018/10/29/afianzamiento-de-la-derecha-en-america-latina/
 permalink: /afianzamiento-de-la-derecha-en-america-latina/
 ---

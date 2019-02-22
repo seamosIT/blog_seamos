@@ -9,11 +9,43 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %});"></a>
         <div class="main-post-wrapper">
           <a href="{{ post.url | prepend: site.baseurl }}">
-            {% if post.author %}
+            {% if post.authors %}
             <footer class="post-footer">
-              <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+              {% assign gravatarCount = post.gravatars | size %}
+              {% if gravatarCount == 0 %}
+                <img class="img-responsive" src="/images/no-gravatar.png"/>
+              {% elsif gravatarCount == 1 %}
+                <img class="img-responsive" src="{{ post.gravatars | first }}"/>
+              {% else %}
+                {% for gravatar in post.gravatars %}
+                  {% if forloop.first %}
+                    <img class="img-responsive" src="{{ gravatar }}"/>
+                  {% elsif forloop.last %}
+                    <img class="img-responsive" src="{{ gravatar }}"/>
+                  {% else %}
+                    <img class="img-responsive" src="{{ gravatar }}"/>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
               <div>
-                <span class="author">{{ post.author }}</span>
+                <span class="author">
+                  {% assign authorCount = post.authors | size %}
+                  {% if authorCount == 0 %}
+                      No author
+                  {% elsif authorCount == 1 %}
+                      {{ post.authors | first }}
+                  {% else %}
+                    {% for author in post.authors %}
+                      {% if forloop.first %}
+                        {{ author }}
+                      {% elsif forloop.last %}
+                        y {{ author }}
+                      {% else %}
+                        , {{ author }}
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                </span>
                 <time>{{ post.date | date: "%b %-d, %Y" }}</time>
               </div>
             </footer>

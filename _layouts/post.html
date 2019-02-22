@@ -18,12 +18,44 @@ layout: default
               <div class="post-content">
                 <div class="post-details">
                   <div class="post-author">
-                    <img class="img-responsive" src="{% if page.gravatar %}{{ page.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
-                    <span>{{ page.author }}</span>
+                    {% assign gravatarCount = page.gravatars | size %}
+                    {% if gravatarCount == 0 %}
+                      <img class="img-responsive" src="/images/no-gravatar.png"/>
+                    {% elsif gravatarCount == 1 %}
+                      <img class="img-responsive" src="{{ page.gravatars | first }}"/>
+                    {% else %}
+                      {% for gravatar in page.gravatars %}
+                        {% if forloop.first %}
+                          <img class="img-responsive" src="{{ gravatar }}"/>
+                        {% elsif forloop.last %}
+                          <img class="img-responsive" src="{{ gravatar }}"/>
+                        {% else %}
+                          <img class="img-responsive" src="{{ gravatar }}"/>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                    <p>
+                      {% assign authorCount = page.authors | size %}
+                      {% if authorCount == 0 %}
+                          No author
+                      {% elsif authorCount == 1 %}
+                          {{ page.authors | first }}
+                      {% else %}
+                        {% for author in page.authors %}
+                          {% if forloop.first %}
+                            {{ author }}
+                          {% elsif forloop.last %}
+                            y {{ author }}
+                          {% else %}
+                            , {{ author }}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                    </p>
                   </div>
                   <time class="post-date">{{ page.date | date: "%b %-d, %Y" }}</time>
                 </div>
-                <div class="post-body">{{ content }}</div>
+                <div class="post-body" style="text-align: justify">{{ content }}</div>
 
                 <div class="share-post">
                   <span class="text">Compartir en:</span>

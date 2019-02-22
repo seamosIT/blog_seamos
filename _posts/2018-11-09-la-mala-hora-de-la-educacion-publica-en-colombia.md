@@ -2,10 +2,11 @@
 published: true
 layout: post
 date: '2018-11-09 10:00:00 -0500'
-author: Paula Alejandra Carranza Lopez
+authors:
+- "Paula Alejandra Carranza Lopez"
 image: 'https://s3.amazonaws.com/seamos-blog-images/la-mala-hora-de-la-educacion-publica-en-colombia.jpeg'
-gravatar: >-
-  https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
+gravatars:
+- https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
 redirect_from: /2018/11/09/la-mala-hora-de-la-educacion-publica-en-colombia/
 permalink: /la-mala-hora-de-la-educacion-publica-en-colombia/
 ---

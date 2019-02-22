@@ -2,10 +2,11 @@
 published: true
 layout: post
 date: '2018-11-09 14:00:00 -0500'
-author: Paula Alejandra Carranza Lopez
+authors:
+- "Paula Alejandra Carranza Lopez"
 image: 'https://s3.amazonaws.com/seamos-blog-images/por-que-es-irresponsable-y-una-falacia-afirmar-que-gracias-a-la-llegada-de-donald-trump-al-poder-las-minorias-y-mujeres-han-logrado-posicionarse-por-medio-del-partido-democrata-como-mayoria.jpeg'
-gravatar: >-
-  https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
+gravatars:
+- https://s3.amazonaws.com/seamos-blog-images/paula_carranza.jpeg
 redirect_from: /2018/11/09/por-que-es-irresponsable-y-una-falacia-afirmar-que-gracias-a-la-llegada-de-donald-trump-al-poder-las-minorias-y-mujeres-han-logrado-posicionarse-por-medio-del-partido-democrata-como-mayoria/
 permalink: /por-que-es-irresponsable-y-una-falacia-afirmar-que-gracias-a-la-llegada-de-donald-trump-al-poder-las-minorias-y-mujeres-han-logrado-posicionarse-por-medio-del-partido-democrata-como-mayoria/
 ---
