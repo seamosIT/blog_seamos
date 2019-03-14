@@ -1,0 +1,12 @@
+---
+limit: 20
+---
+[
+{% for post in site.posts limit: page.limit %}
+  {
+    "title": "{{ post.title }}",
+    "date": "{{ post.date | date: "%B %d, %Y" }}",
+    "url": "https://seamosit.github.io{{post.permalink}}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
